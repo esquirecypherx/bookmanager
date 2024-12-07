@@ -1,0 +1,5 @@
+Tkinter
+sqlite3
+Pillow
+PyMuPDF
+requests
