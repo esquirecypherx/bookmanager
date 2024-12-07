@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.1">
+  <diagram name="Страница — 1" id="e5EBfBnEORe2kTyD1cTb">
+    <mxGraphModel dx="1426" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-5" value="Book         " style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-6" value="id: int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-5">
+          <mxGeometry x="12" y="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-7" value="title: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-5">
+          <mxGeometry x="7" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-8" value="author: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-5">
+          <mxGeometry x="9" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-9" value="category: string" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-5">
+          <mxGeometry x="5" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-11" value="progress: float" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-5">
+          <mxGeometry x="7" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-12" value="BookService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-13" value="bookRepository: BookRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-14" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;createBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;book&lt;/span&gt;: Book)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry x="5" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-15" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;getBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;id&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;): Book" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry x="5" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-16" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;updateBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;book&lt;/span&gt;: Book)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry x="3" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-17" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;deleteBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;id&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry x="5" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-18" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;moveBookToCategory&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;book&lt;/span&gt;: Book, &lt;span class=&quot;hljs-attr&quot;&gt;category&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry x="2" y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-19" value="BookRepository   " style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="40" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-20" value="dbConnection:&amp;nbsp;DatabaseConnection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-21" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;saveBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;book&lt;/span&gt;: Book)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry x="4" y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-22" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;getBookById&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;id&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry x="2" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-23" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;updateBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;book&lt;/span&gt;: Book)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-24" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;deleteBook&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;id&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-25" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;getBooksByCategory&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;category&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-19">
+          <mxGeometry y="180" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-26" value="DatabaseConnection     " style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-27" value="connectionString: &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-26">
+          <mxGeometry x="2" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-28" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;connect&lt;/span&gt;()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-26">
+          <mxGeometry x="5" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-29" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;disconnect&lt;/span&gt;()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-26">
+          <mxGeometry x="2" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-30" value="&lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;executeQuery&lt;/span&gt;(&lt;span class=&quot;hljs-attr&quot;&gt;query&lt;/span&gt;: &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-26">
+          <mxGeometry x="2" y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lNrDT_ejRNbuinoRR7VB-5" target="lNrDT_ejRNbuinoRR7VB-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="570" y="390" as="sourcePoint" />
+            <mxPoint x="670" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lNrDT_ejRNbuinoRR7VB-12" target="lNrDT_ejRNbuinoRR7VB-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="170" as="sourcePoint" />
+            <mxPoint x="760" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lNrDT_ejRNbuinoRR7VB-12" target="lNrDT_ejRNbuinoRR7VB-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="360" as="sourcePoint" />
+            <mxPoint x="640" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-36" value="Bookmark" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-37" value="id: int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-36">
+          <mxGeometry x="3" y="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-38" value="pageNumber: int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-36">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-39" value="bookId: int" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-36">
+          <mxGeometry y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-41" value="Bookmark&lt;span style=&quot;background-color: initial;&quot;&gt;Repository&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="610" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-42" value="dbConnection:&amp;nbsp;DatabaseConnection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-41">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-43" value="saveBookmark(bookmark: Bookmark)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-41">
+          <mxGeometry x="2" y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-44" value="getBookmarkByBookId(bookId: int): Bookmark" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-41">
+          <mxGeometry y="120" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-45" value="deleteBookmark(id: int)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-41">
+          <mxGeometry y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-48" value="BookmarkService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="610" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-49" value="bookmarkRepo:: BookmarkRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-48">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-50" value="addBookmark(bookmark: Bookmark)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-48">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-51" value="getBookmark(bookId: int): Bookmark" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-48">
+          <mxGeometry x="2" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-52" value="updateBookmark(bookmark: Bookmark)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-48">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-53" value="deleteBookmark(id: int)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lNrDT_ejRNbuinoRR7VB-48">
+          <mxGeometry y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-57" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lNrDT_ejRNbuinoRR7VB-36">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="610" y="650" as="sourcePoint" />
+            <mxPoint x="410" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-58" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=-0.013;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lNrDT_ejRNbuinoRR7VB-45">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="800" y="710" as="sourcePoint" />
+            <mxPoint x="720" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-59" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="108" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNrDT_ejRNbuinoRR7VB-60" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
